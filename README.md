@@ -6,8 +6,9 @@ Larriba, E., del Mazo, J. An integrative piRNA analysis of mouse gametes and zyg
 
 
 
-Downladable compressed fasta file available at: https://drive.google.com/file/d/1NqSfGcrBSMYLfOyUaJ10djiQem7ZUfWE
+Downloadable compressed fasta file available at: https://drive.google.com/file/d/1NqSfGcrBSMYLfOyUaJ10djiQem7ZUfWE
 
+Downloadable compressed BED file available at: https://drive.google.com/file/d/1NftShKgHb7ywEVFCI1q6uoQpaZdnGrLz
 
 
 ## Script runing order
