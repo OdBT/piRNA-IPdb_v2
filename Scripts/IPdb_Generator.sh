@@ -50,5 +50,10 @@ cat *.fa > $outFolder/$dbName.all.pre.fa # concatenate all ds files
 wc -l $outFolder/$dbName.all.pre.fa # count piRNAs with dupl
 grep ">" -c $outFolder/$dbName.all.fa # count piRNA number after remove dupl
 
+## Quit ambigous sequences (with "N") ##
+awk '{ if ((NR>1)&&($0~/^>/)) { printf("\n%s", $0); } else if (NR==1) { printf("%s", $0); } else { printf("\t%s", $0); } }' IPdb2+hec_sort.fa | grep -v N | tr "\t" "\n" > IPdb2+hec_sort.fa
+#									^ linearize with awk 		
+
+
 # cleaning
 rm $outFolder/$dbName.all.pre.* # remains all.fa, wo dup seq
