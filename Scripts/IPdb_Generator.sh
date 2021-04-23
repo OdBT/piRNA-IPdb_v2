@@ -3,8 +3,8 @@
 
 # Steps
 # 	- Download piRBase for mmu
-#		- Extract IPdb datasets
-#	 	- Merge All dataset sequences
+#	- Extract IPdb datasets
+#	- Merge All dataset sequences
 
 outFolder=/home/Odei/IPdb2/Extracting_ds_reads
 PerlFolder=/home/Odei/IPdb2/Scripts
