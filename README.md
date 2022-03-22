@@ -1,6 +1,10 @@
 # IPpiRNAdb_v2
 
-An update of the IPpiRNAdb initialy released at:
+This database is publised at:
+
+Barreñada, O., Larriba, E., Brieño-Enriquez, M.A. et al. piRNA-IPdb: a PIWI-bound piRNAs database to mining NGS sncRNA data and beyond. BMC Genomics 22, 765 (2021). https://doi.org/10.1186/s12864-021-08071-6
+
+The IPpiRNAdb initialy released at:
 
 Larriba, E., del Mazo, J. An integrative piRNA analysis of mouse gametes and zygotes reveals new potential origins and gene regulatory roles. Sci Rep 8, 12832 (2018). https://doi.org/10.1038/s41598-018-31032-1
 
